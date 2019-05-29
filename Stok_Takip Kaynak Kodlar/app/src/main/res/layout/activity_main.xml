@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/arka"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="93dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Stok Ekle"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="211dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="88dp"
+        app:srcCompat="@mipmap/qrk" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="228dp"
+        android:layout_marginBottom="27dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Stok Silme"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="27dp"
+        android:background="@android:color/holo_orange_light"
+        android:text=" Stok Listele  "
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="95dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="  Stok       Güncelle"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@mipmap/cooltext319894259941899" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginBottom="153dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="STOK GİRİŞ - ÇIKIŞ"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-9dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:drawable/ic_menu_info_details"
+        android:text="Button" />
+
+</RelativeLayout>

@@ -1,0 +1,1 @@
+Barcode scannerý yükledikten sonra app-debug(Stok uygulamasý) yükleyip uygulamayý kullanabilirsiniz.Barcode scanner olmayýnca qr kod tarayýcý hata verecektir.
